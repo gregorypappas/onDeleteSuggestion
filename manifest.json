@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "onDeleteSuggestion test",
+  "description": "To use, type 'omni' in the address bar.",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword": "omni" }
+}
